@@ -20,17 +20,17 @@
 
 @media screen and (max-width:600px) {
     .container-presentacion{
-    padding-left: 2%;
-    padding-right: 2%;
-    text-align: end;
+        padding-left: 2%;
+        padding-right: 2%;
+        text-align: end;
     }
 
     #linkCv{
         border-bottom: 1px solid #fff;
         color: #fff;
         font-size: .7rem;
-        transition: all ease .4s;
         padding-top: 1rem;
+        transition: all ease .4s;
     }
 
     #linkCv:hover{

@@ -16,7 +16,7 @@ export const Presentacion = () => {
                             <Col className="d-grid d-sm-none justify-content-end">
                                 <div className="imagen-perfil hover-grow shadow-hover" />
                             </Col>
-                            <Col xs={8} sm={12} className='m-auto'>
+                            <Col xs={8} sm={12} className='text-center text-sm-start m-auto m-sm-0'>
                                 <p className="semi-white lh-1">
                                     H o l a 👋&nbsp;,&nbsp; m e &nbsp; l l a m o
                                 </p>
@@ -25,7 +25,7 @@ export const Presentacion = () => {
                                 </p>
                             </Col>
                         </Row>
-                        <p className="soft-gray giant-font bold lh-1 my-2 my-sm-0">
+                        <p className="text-center soft-gray giant-font bold lh-1 my-3 my-sm-0">
                             Me gusta el desarrollo web, en especial trabajar con <b className="react-color">React.</b>
                         </p>
                         <p className="semi-white lh-sm text-justify">
