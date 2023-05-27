@@ -1,11 +1,13 @@
 import { Col, Container, Row } from "react-bootstrap"
 import { TarjetaInformativa } from "./TarjetaInformativa"
 
+
 export const Experiencia = () => {
 
-    const quitarAgregarClase = (idElemento) => {
-        const idsTarjetas = ['tarjetaHyundai', 'tarjetaAduana', 'tarjetaWetforest']
+    const idsTarjetas = ['tarjetaHyundai', 'tarjetaAduana', 'tarjetaWetforest']
 
+
+    const quitarAgregarClase = (idElemento) => {
         idsTarjetas.forEach(idTarjeta => {
             document.getElementById(idTarjeta).classList.add('flip')
         })
@@ -16,7 +18,7 @@ export const Experiencia = () => {
     return (
         <section
             id="experiencia"
-            className="contenedor-fondo-gradient-transparente mt-1"
+            className="contenedor-fondo-gradient-transparente"
             aria-label="Experiencia laboral"
         >
             <Container>

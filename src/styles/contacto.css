@@ -5,3 +5,13 @@
 .altura-col-icon{
     height: 42vh;
 }
+
+@media screen and (max-width:600px) {
+    .altura-titulo{
+        height: 0;
+        font-size: 1.1rem;
+    }
+    .altura-col-icon{
+        height: 30vh;
+    }
+}

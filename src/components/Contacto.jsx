@@ -6,7 +6,7 @@ export const Contacto = () => {
     return (
         <section
             id="contacto"
-            className="contenedor-fondo-gradient-transparente mt-1"
+            className="contenedor-fondo-gradient-transparente"
             aria-label="Información de contacto"
         >
             <Container>

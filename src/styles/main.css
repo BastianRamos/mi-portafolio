@@ -257,12 +257,15 @@ main {
 
     .altura-titulo-20vh{
         height: 0vh;
-        font-size: 1.8rem;
+        font-size: 1.3rem;
+        padding-bottom: 3rem;
     }
 
     .contenedor-fondo-gradient-transparente{
         margin-left: 0;
-        padding-top: 6rem;
-        margin-top: 8rem;
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+        margin-top: 1rem;
+        height: auto;
     }
 }
