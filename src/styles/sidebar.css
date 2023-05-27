@@ -81,4 +81,9 @@
     .sidebar{
         display: none;
     }
+    .imagen-perfil{
+        height: 80px;
+        width: 80px;
+        margin: 0;
+    }
 }

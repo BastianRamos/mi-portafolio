@@ -36,7 +36,7 @@ export const Experiencia = () => {
                         xs={12}
                         sm={4}
                         id="tarjetaHyundai"
-                        className="sombra flip"
+                        className="flip"
                         onMouseLeave={() => quitarAgregarClase('tarjetaHyundai')}
                     >
                         <TarjetaInformativa
@@ -49,7 +49,7 @@ export const Experiencia = () => {
                         xs={12}
                         sm={4}
                         id="tarjetaAduana"
-                        className="my-3 my-sm-0 "
+                        className="my-4 my-sm-0 "
                         onMouseLeave={() => quitarAgregarClase('tarjetaAduana')}
                     >
                         <TarjetaInformativa

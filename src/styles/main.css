@@ -252,13 +252,12 @@ main {
     }
 
     .giant-font{
-        font-size: 2.4rem;
+        font-size: 1.8rem;
     }
 
     .altura-titulo-20vh{
         height: 0vh;
         font-size: 1.3rem;
-        padding-bottom: 3rem;
     }
 
     .contenedor-fondo-gradient-transparente{

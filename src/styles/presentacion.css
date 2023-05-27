@@ -19,9 +19,24 @@
 }
 
 @media screen and (max-width:600px) {
-.container-presentacion{
+    .container-presentacion{
     padding-left: 2%;
     padding-right: 2%;
     text-align: end;
-}
+    }
+
+    #linkCv{
+        border-bottom: 1px solid #fff;
+        color: #fff;
+        font-size: .7rem;
+        transition: all ease .4s;
+        padding-top: 1rem;
+    }
+
+    #linkCv:hover{
+        border-bottom: 1px solid #61dafb;
+        color: #61dafb;
+        -webkit-transform: translateY(4px);
+        transform: translateY(4px);
+    }
 }

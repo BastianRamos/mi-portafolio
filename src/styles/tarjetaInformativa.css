@@ -14,3 +14,9 @@
 .contenedor small{
     font-size: .7rem;
 }
+
+@media screen and (max-width:600px) {
+    .contenedor{
+        height: 50vh;
+    }
+}
