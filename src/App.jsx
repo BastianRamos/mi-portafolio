@@ -9,7 +9,7 @@ function App() {
     <>
       <Sidebar />
       <main>
-        <video className="video-fondo" src="public/video-pulsaciones-iconos.mp4" autoPlay loop />
+        <video className="video-fondo" src="video-pulsaciones-iconos.mp4" autoPlay loop />
         <Presentacion />
         <Experiencia />
         <Tecnologias />

@@ -8,7 +8,7 @@ export const Sidebar = () => {
                 <div className="perfil ">
                     <div className="imagen-perfil hover-grow shadow-hover" />
                     <h6>Este soy yo</h6>
-                    <a className="shadow-hover" href='public/CV.pdf' target="_blank">
+                    <a className="shadow-hover" href='CV.pdf' target="_blank">
                         Descarga mí CV
                     </a>
                 </div>
