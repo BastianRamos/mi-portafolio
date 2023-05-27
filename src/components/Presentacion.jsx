@@ -26,7 +26,7 @@ export const Presentacion = () => {
                     </p>
                 </div>
                 <div className="d-grid justify-content-center ">
-                    <img className="rotacion-infinita" src="public/react.svg" />
+                    <img className="rotacion-infinita" src="react.svg" />
                 </div>
             </div>
         </section>

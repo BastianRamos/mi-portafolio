@@ -74,7 +74,7 @@
 
 .active > .menu-item-sidebar {
     background-color: #149eca;
-
+    box-shadow: rgba(97, 218, 251, 0.4) 0px 30px 90px;
 }
 
 @media screen and (max-width:600px) {
