@@ -23,7 +23,7 @@ export const Contacto = () => {
                             target="_blank"
                         >
                             <img
-                                src="public/iconos_contacto/linkedin.png"
+                                src="iconos_contacto/linkedin.png"
                                 height={60}
                                 width={60}
                                 alt="Icono de linkedin"
@@ -33,7 +33,7 @@ export const Contacto = () => {
                     <Col xs={12} sm={4} className="d-flex justify-content-center align-items-center flotar altura-col-icon">
                         <a className="hover-grow" href="mailto:bastian2jz@gmail.com">
                             <img
-                                src="public/iconos_contacto/gmail.png"
+                                src="iconos_contacto/gmail.png"
                                 height={60}
                                 width={60}
                                 alt="Icono de gmail"
@@ -47,7 +47,7 @@ export const Contacto = () => {
                             target="_blank"
                         >
                             <img
-                                src="public/iconos_contacto/github-icon.png"
+                                src="iconos_contacto/github-icon.png"
                                 height={60}
                                 width={60}
                                 alt="Icono de linkedin"
