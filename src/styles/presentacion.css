@@ -1,0 +1,27 @@
+.container-presentacion {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+}
+
+.container-presentacion p {
+    margin-bottom: 0.1em;
+    margin-top: 0.1em;
+}
+
+.container-presentacion img {
+    height: 60px;
+    margin-top: 2rem;
+    width: 60px;
+}
+
+@media screen and (max-width:600px) {
+.container-presentacion{
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: end;
+}
+}

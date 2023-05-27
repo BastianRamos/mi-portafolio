@@ -1,0 +1,86 @@
+import { Col, Container, Row } from 'react-bootstrap'
+import { TarjetaSkill } from './TarjetaSkill'
+
+export const Tecnologias = () => {
+    return (
+        <section
+            id="tecnologias"
+            className='contenedor-fondo-gradient-transparente'
+            aria-label="Tecnologías con las que he trabajado"
+        >
+            <Container>
+                <Row className='justify-content-center'>
+                    <Col xs={12}>
+                        <h3 className='d-flex justify-content-center align-items-end altura-titulo-20vh'>
+                            💻 Skills Tecnológicas
+                        </h3>
+                    </Col>
+
+                    <Col xs={6} sm={2} className='d-flex justify-content-center'>
+                        <TarjetaSkill
+                            imagenSrc='public/logos_tecnologias/sweetalert2-logo.png'
+                            texto='SweetAlert 2'
+                            porcentajeProgreso='60'
+                        />
+                    </Col>
+                    <Col xs={6} sm={2} className='d-flex justify-content-center'>
+                        <TarjetaSkill
+                            imagenSrc='public/logos_tecnologias/html5-logo.png'
+                            texto='HTML5'
+                            porcentajeProgreso='50'
+                        />
+                    </Col>
+                    <Col xs={6} sm={2} className='d-flex justify-content-center'>
+                        <TarjetaSkill
+                            imagenSrc='public/logos_tecnologias/css3-logo.png'
+                            texto='CSS3'
+                            porcentajeProgreso='50'
+                        />
+                    </Col>
+                    <Col xs={6} sm={2} className='d-flex justify-content-center'>
+                        <TarjetaSkill
+                            imagenSrc='public/logos_tecnologias/javascript-logo.png'
+                            texto='JavaScript ES6'
+                            porcentajeProgreso='50'
+                        />
+                    </Col>
+                    <Col xs={6} sm={2} className='d-flex justify-content-center'>
+                        <TarjetaSkill
+                            imagenSrc='public/logos_tecnologias/react-logo.png'
+                            texto='ReactJS'
+                            porcentajeProgreso='50'
+                        />
+                    </Col>
+                    <Col xs={6} sm={2} className='d-flex justify-content-center'>
+                        <TarjetaSkill
+                            imagenSrc='public/logos_tecnologias/bootstrap-logo.png'
+                            texto='Bootstrap'
+                            porcentajeProgreso='40'
+                        />
+                    </Col>
+                    <Col xs={6} sm={2} className='d-flex justify-content-center'>
+                        <TarjetaSkill
+                            imagenSrc='public/logos_tecnologias/mui-logo.png'
+                            texto='Material UI'
+                            porcentajeProgreso='40'
+                        />
+                    </Col>
+                    <Col xs={6} sm={2} className='d-flex justify-content-center'>
+                        <TarjetaSkill
+                            imagenSrc='public/logos_tecnologias/ant-design-logo.png'
+                            texto='Ant Design'
+                            porcentajeProgreso='30'
+                        />
+                    </Col>
+                    <Col xs={6} sm={2} className='d-flex justify-content-center'>
+                        <TarjetaSkill
+                            imagenSrc='public/logos_tecnologias/git-logo.png'
+                            texto='Git'
+                            porcentajeProgreso='30'
+                        />
+                    </Col>
+                </Row>
+            </Container>
+        </section >
+    )
+}

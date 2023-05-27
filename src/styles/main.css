@@ -1,0 +1,268 @@
+/* __________FONTS_________ */
+@font-face {
+    font-family: Rubik;
+    src: url(../fonts/Rubik-Regular.ttf);
+}
+
+
+
+/* __________KEYFRAMES__________ */
+@keyframes rebote-vertical-hover {
+    16.65% {
+      -webkit-transform: translateY(8px);
+      transform: translateY(8px);
+    }
+    33.3% {
+      -webkit-transform: translateY(-6px);
+      transform: translateY(-6px);
+    }
+    49.95% {
+      -webkit-transform: translateY(4px);
+      transform: translateY(4px);
+    }
+    66.6% {
+      -webkit-transform: translateY(-2px);
+      transform: translateY(-2px);
+    }
+    83.25% {
+      -webkit-transform: translateY(1px);
+      transform: translateY(1px);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+
+@keyframes flotar {
+    0% {
+        transform: translatey(0px);
+        -webkit-transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatey(-14px);
+        -webkit-transform: translatey(-14px);
+    }
+
+    100% {
+        transform: translatey(0px);
+        -webkit-transform: translatey(0px);
+    }
+}
+
+@keyframes deslizar-arriba-abajo-fade {
+
+    0%,
+    40% {
+        opacity: 0;
+        transform: translateY(-60vh);
+        -webkit-transform: translateY(-60vh);
+    }
+
+    80% {
+        opacity: 0.5;
+        transform: translateY(4vh);
+        -webkit-transform: translateY(4vh);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+    }
+}
+
+@keyframes deslizar-derecha-izquierda {
+    0% {
+        transform: translateX(80vw);
+        -webkit-transform: translateX(80vw);
+    }
+
+    60% {
+        transform: translateX(-4vw);
+        -webkit-transform: translateX(-4vw);
+    }
+
+    80% {
+        transform: translateX(4vw);
+        -webkit-transform: translateX(4vw);
+    }
+
+    100% {
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+    }
+}
+
+@keyframes rotacion-infinita {
+    from {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes pulso {
+    0%{
+        transform: scale(0.95);
+        -webkit-transform: scale(0.95);
+    }
+
+    50%{
+        transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+    }
+
+    100%{
+        transform: scale(0.95);
+        -webkit-transform: scale(0.95);
+    }
+}
+
+
+
+/* __________GLOBALES__________ */
+* {
+    color: #fff;
+    font-family: Rubik, Arial, Helvetica, sans-serif;
+    list-style-type: none !important;
+    text-decoration: none !important;
+}
+
+body {
+    background: linear-gradient(to top left, #0a192f, #122c3e);
+}
+
+main {
+    margin-left: 20vw;
+}
+
+.altura-titulo-20vh{
+    height: 20vh;
+}
+
+.semi-white {
+    color: #ccd6f6;
+}
+
+.soft-gray {
+    color: #8892b0;
+}
+
+.giant-font {
+    font-size: 3rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.react-color {
+    color: #61dafb;
+}
+
+.background-react-color{
+    background-color: #61dafb;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.deslizar-arriba-abajo-fade {
+    animation: deslizar-arriba-abajo-fade ease 4s;
+    -webkit-animation: deslizar-arriba-abajo-fade ease 4s;
+}
+
+.deslizar-derecha-izquierda {
+    animation: deslizar-derecha-izquierda ease-in-out 4s;
+    -webkit-animation: deslizar-derecha-izquierda ease-in-out 4s;
+}
+
+.rotacion-infinita {
+    animation: rotacion-infinita 8s linear 4s infinite normal;
+    -webkit-animation: rotacion-infinita 8s linear 4s infinite normal;
+}
+
+.hover-grow{
+    transition: all ease .4s;
+    -webkit-transition: all ease .4s;
+}
+
+.hover-grow:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}
+
+.flotar{
+    animation: flotar 4s ease-in-out infinite;
+    -webkit-animation: flotar 4s ease-in-out infinite;
+}
+
+.shadow-hover:hover{
+    box-shadow: rgba(97, 218, 251, 0.4) 0px 30px 90px;
+}
+
+.rebote-vertical-hover:hover{
+    animation: rebote-vertical-hover ease-in-out .8s;
+    -webkit-animation: rebote-vertical-hover ease-in-out .8s;   
+}
+
+.contenedor-fondo-gradient-transparente {
+    background: linear-gradient(to top, #031621, 90%, #89d1d6);
+    height: 100vh;
+    margin-left: 0.2em;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.flip{
+    transition: all ease-out 2s;
+}
+
+.flip:hover{
+    transform: rotateY(360deg);
+}
+
+
+/* Fondo en el componente App dentro del tag main */
+.video-fondo {
+    bottom: 0;
+    height: 100vh;
+    left: 0;
+    object-fit: cover;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100vw;
+    z-index: -1;
+}
+
+
+
+/* MEDIA QUERYS */
+@media screen and (max-width:600px) {
+    main{
+        margin-left: 0;
+    }
+
+    .giant-font{
+        font-size: 2.4rem;
+    }
+
+    .altura-titulo-20vh{
+        height: 0vh;
+        font-size: 1.8rem;
+    }
+
+    .contenedor-fondo-gradient-transparente{
+        margin-left: 0;
+        padding-top: 6rem;
+        margin-top: 8rem;
+    }
+}
