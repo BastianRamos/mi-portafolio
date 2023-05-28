@@ -262,7 +262,7 @@ main {
 
 
 /* MEDIA QUERYS */
-@media screen and (max-width:600px) {
+@media screen and (max-width:576px) {
     main{
         margin-left: 0;
     }
@@ -282,5 +282,22 @@ main {
         margin-top: 1rem;
         padding-bottom: 12rem;
         padding-top: 12rem;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .giant-font{
+        font-size: 2rem;
+    }
+    .contenedor-fondo-gradient-transparente{
+        height: auto;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .contenedor-fondo-gradient-transparente{
+        height: auto;
+        margin-top: 1rem;
+        padding-bottom: 8rem;
     }
 }

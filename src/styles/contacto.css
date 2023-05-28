@@ -6,7 +6,7 @@
     height: 42vh;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:576px) {
     .altura-titulo{
         height: 0;
         font-size: 1.1rem;

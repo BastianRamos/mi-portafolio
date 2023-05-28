@@ -22,7 +22,7 @@ export const Experiencia = () => {
             aria-label="Experiencia laboral"
         >
             <Container>
-                <Row>
+                <Row className="justify-content-sm-center">
                     <Col xs={12}>
                         <h3 className='d-flex justify-content-center align-items-end altura-titulo-20vh'>
                             💼 Experiencia Laboral
@@ -34,7 +34,8 @@ export const Experiencia = () => {
                     </Col>
                     <Col
                         xs={12}
-                        sm={4}
+                        sm={6}
+                        lg={4}
                         id="tarjetaHyundai"
                         className="flip"
                         onMouseLeave={() => quitarAgregarClase('tarjetaHyundai')}
@@ -47,7 +48,8 @@ export const Experiencia = () => {
                     </Col>
                     <Col
                         xs={12}
-                        sm={4}
+                        sm={6}
+                        lg={4}
                         id="tarjetaAduana"
                         className="my-4 my-sm-0 "
                         onMouseLeave={() => quitarAgregarClase('tarjetaAduana')}
@@ -60,7 +62,9 @@ export const Experiencia = () => {
                     </Col>
                     <Col
                         xs={12}
-                        sm={4}
+                        sm={6}
+                        lg={4}
+                        className="mt-sm-4 mt-lg-0"
                         id="tarjetaWetforest"
                         onMouseLeave={() => quitarAgregarClase('tarjetaWetforest')}
                     >

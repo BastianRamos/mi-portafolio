@@ -18,7 +18,7 @@
     width: 60px;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:576px) {
     .container-presentacion{
         padding-left: 2%;
         padding-right: 2%;
