@@ -3,6 +3,7 @@ import { Presentacion } from "./components/Presentacion"
 import { Tecnologias } from "./components/Tecnologias"
 import { Experiencia } from "./components/Experiencia"
 import { Contacto } from "./components/Contacto"
+import { BotonVolverArriba } from "./components/BotonVolverArriba"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Experiencia />
         <Tecnologias />
         <Contacto />
+        <BotonVolverArriba />
       </main>
     </>
   )

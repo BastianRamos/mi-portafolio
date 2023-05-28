@@ -223,11 +223,27 @@ main {
 
 .flip{
     transition: all ease-out 2s;
+    -webkit-transition: all ease-out 2s;
 }
 
 .flip:hover{
     transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
 }
+
+.sticky-container-bottom-left{
+    border: 1px solid #2a8bff;
+    border-radius: 50%;
+    bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    height: 48px;
+    left: 10px;
+    position: fixed;
+    width: 48px;
+    z-index: 9999;
+}
+
 
 
 /* Fondo en el componente App dentro del tag main */
@@ -256,15 +272,15 @@ main {
     }
 
     .altura-titulo-20vh{
-        height: 0vh;
         font-size: 1.3rem;
+        height: 0vh;
     }
 
     .contenedor-fondo-gradient-transparente{
-        margin-left: 0;
-        padding-top: 12rem;
-        padding-bottom: 12rem;
-        margin-top: 1rem;
         height: auto;
+        margin-left: 0;
+        margin-top: 1rem;
+        padding-bottom: 12rem;
+        padding-top: 12rem;
     }
 }

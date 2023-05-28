@@ -78,9 +78,6 @@
 }
 
 @media screen and (max-width:600px) {
-    .sidebar{
-        display: none;
-    }
     .imagen-perfil{
         height: 80px;
         width: 80px;

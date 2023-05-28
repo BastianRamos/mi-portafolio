@@ -3,7 +3,7 @@ import '../styles/sidebar.css'
 
 export const Sidebar = () => {
     return (
-        <aside className="contenedor-sidebar">
+        <aside className="contenedor-sidebar d-none d-sm-block">
             <div className="sidebar deslizar-derecha-izquierda">
                 <div className="perfil ">
                     <div className="imagen-perfil hover-grow shadow-hover" />
