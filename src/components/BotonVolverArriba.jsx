@@ -12,7 +12,7 @@ export const BotonVolverArriba = () => {
     }
 
     return (
-        <Link id="linkBtnSubir" className="d-none d-sm-none" smooth spy to="presentacion">
+        <Link id="linkBtnSubir" className="d-none d-sm-none" spy to="presentacion">
             <div className="sticky-container-bottom-left justify-content-center">
                 <img height={40} width={40} src="icon-cohete-up.png" alt="Icono cohete subiendo" />
             </div>
