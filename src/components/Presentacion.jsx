@@ -25,7 +25,7 @@ export const Presentacion = () => {
                                 </p>
                             </Col>
                         </Row>
-                        <p className="text-center soft-gray giant-font bold lh-1 my-3 my-sm-0">
+                        <p className="text-center text-sm-start soft-gray giant-font bold lh-1 my-3 my-sm-0">
                             Me gusta el desarrollo web, en especial trabajar con <b className="react-color">React.</b>
                         </p>
                         <p className="semi-white lh-sm text-justify">
