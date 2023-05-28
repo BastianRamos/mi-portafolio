@@ -13,10 +13,7 @@ export const Presentacion = () => {
                 <Row>
                     <Col xs={12} className='flotar p-0'>
                         <Row>
-                            <Col className="d-grid d-sm-none justify-content-end">
-                                <div className="imagen-perfil hover-grow shadow-hover" />
-                            </Col>
-                            <Col xs={8} sm={12} className='text-center text-sm-start m-auto m-sm-0'>
+                            <Col xs={8} sm={12} className='text-sm-start m-auto m-sm-0'>
                                 <p className="semi-white lh-1">
                                     H o l a 👋&nbsp;,&nbsp; m e &nbsp; l l a m o
                                 </p>
@@ -24,8 +21,11 @@ export const Presentacion = () => {
                                     Bastian Ramos.
                                 </p>
                             </Col>
+                            <Col className="d-grid d-sm-none justify-content-start">
+                                <div className="imagen-perfil hover-grow shadow-hover" />
+                            </Col>
                         </Row>
-                        <p className="text-center text-sm-start soft-gray giant-font bold lh-1 my-3 my-sm-0">
+                        <p className="text-end text-sm-start soft-gray giant-font bold lh-1 my-3 my-sm-0">
                             Me gusta el desarrollo web, en especial trabajar con <b className="react-color">React.</b>
                         </p>
                         <p className="semi-white lh-sm text-justify">
