@@ -234,11 +234,11 @@ main {
 .sticky-container-bottom-left{
     border: 1px solid #2a8bff;
     border-radius: 50%;
-    bottom: 10px;
+    bottom: 30px;
     cursor: pointer;
     display: flex;
     height: 48px;
-    left: 10px;
+    left: 20px;
     position: fixed;
     width: 48px;
     z-index: 9999;
