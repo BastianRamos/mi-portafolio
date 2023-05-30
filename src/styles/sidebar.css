@@ -82,6 +82,9 @@
         height: 80px;
         width: 80px;
         margin: 0;
+        box-shadow: rgba(97, 218, 251, 0.4) 0px 30px 90px;
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
     }
 }
 

@@ -227,8 +227,8 @@ main {
 }
 
 .flip:hover{
-    transform: rotateY(360deg);
-    -webkit-transform: rotateY(360deg);
+    transform: rotateY(-360deg);
+    -webkit-transform: rotateY(-360deg);
 }
 
 .sticky-container-bottom-left{
@@ -285,7 +285,7 @@ main {
     }
 }
 
-@media screen and (max-width:992px) {
+@media (min-width:577px) and (max-width:992px) {
     .giant-font{
         font-size: 2rem;
     }
@@ -294,7 +294,7 @@ main {
     }
 }
 
-@media screen and (max-width:1200px) {
+@media (min-width:993px) and (max-width:1200px) {
     .contenedor-fondo-gradient-transparente{
         height: auto;
         margin-top: 1rem;
