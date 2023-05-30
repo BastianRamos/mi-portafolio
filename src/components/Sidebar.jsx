@@ -6,7 +6,7 @@ export const Sidebar = () => {
         <aside className="contenedor-sidebar d-none d-sm-block">
             <div className="sidebar deslizar-derecha-izquierda">
                 <div className="perfil ">
-                    <div className="imagen-perfil hover-grow shadow-hover" />
+                    <div className="imagen-perfil" />
                     <h6>Este soy yo</h6>
                     <a className="shadow-hover" href='CV.pdf' target="_blank">
                         Descarga mí CV
