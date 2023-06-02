@@ -37,7 +37,13 @@ export const Presentacion = () => {
                         </p>
                     </Col>
                     <Col xs={12} className='text-center'>
-                        <img height={60} width={60} className="rotacion-infinita mt-2" src="react.svg" alt='Logo react' />
+                        <img
+                            height={60}
+                            width={60}
+                            className="rotacion-infinita mt-2"
+                            src="react.svg"
+                            alt='Logo react'
+                        />
                         <div className='pt-5 pt-sm-0 d-contents d-sm-none'>
                             <a id='linkCv' className="shadow-hover" href='CV.pdf' target="_blank">
                                 Descarga mí CV
@@ -45,10 +51,18 @@ export const Presentacion = () => {
                         </div>
                     </Col>
 
-                    <Col xs={12} className='d-sm-none mt-4 d-flex justify-content-left'>
-                        <Link to='experiencia' smooth>
-                            <div id='container-btn-bajar' className='d-grid justify-content-center align-content-center click-me'>
-                                <img height={30} width={30} src='flecha-hacia-abajo.png' alt='Icono flecha hacia abajo' />
+                    <Col xs={12} className='d-sm-none mt-5 d-flex justify-content-center'>
+                        <Link to='experiencia'>
+                            <div
+                                id='container-btn-bajar'
+                                className='d-grid justify-content-center align-content-center click-me'
+                            >
+                                <img
+                                    height={30}
+                                    width={30}
+                                    src='flecha-hacia-abajo.png'
+                                    alt='Icono flecha hacia abajo'
+                                />
                             </div>
                         </Link>
                     </Col>
