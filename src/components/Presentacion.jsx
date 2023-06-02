@@ -51,7 +51,7 @@ export const Presentacion = () => {
                         </div>
                     </Col>
 
-                    <Col xs={12} className='d-sm-none mt-5 d-flex justify-content-center'>
+                    <Col xs={12} className='d-sm-none d-flex justify-content-center'>
                         <Link to='experiencia'>
                             <div
                                 id='container-btn-bajar'
