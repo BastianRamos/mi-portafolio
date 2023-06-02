@@ -231,7 +231,10 @@ main {
     -webkit-transform: rotateY(-360deg);
 }
 
-.sticky-container-bottom-left{
+
+
+/* __________IDs__________ */
+#sticky-container-bottom-cohete{
     border: 1px solid #2a8bff;
     border-radius: 50%;
     bottom: 30px;
@@ -244,10 +247,7 @@ main {
     z-index: 9999;
 }
 
-
-
-/* Fondo en el componente App dentro del tag main */
-.video-fondo {
+#video-fondo {
     bottom: 0;
     height: 100vh;
     left: 0;
