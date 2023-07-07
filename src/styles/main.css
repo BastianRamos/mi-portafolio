@@ -231,6 +231,10 @@ main {
     -webkit-transform: rotateY(-360deg);
 }
 
+.border-radius-8{
+    border-radius: 8px;
+}
+
 
 
 /* __________IDs__________ */

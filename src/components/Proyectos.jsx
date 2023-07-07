@@ -18,23 +18,28 @@ export const Proyectos = () => {
                     </Col>
                     <Col xs={12} className="mt-5" align='center'>
                         <Card className="card-container flotar">
-                            <Card.Body className="pb-0">
+                            <Card.Body>
                                 <Card.Title className="text-dark ">
                                     Clima APP
                                 </Card.Title>
-                                <Card.Text className="text-secondary">
-                                    Con geolocalización o la ciudad que escribas mostrará datos climáticos del momento.
+                                <Card.Text className="text-secondary text-justify lh-sm">
+                                    Con geolocalización o al ingresar una ciudad mostrará datos climáticos del momento.
                                     Desarrollada en React con componentes de Ant Design, conexión a las APIs de AccuWeather y
                                     alojada en la nube con Vercel.
                                 </Card.Text>
                                 <small className="text-secondary bold">
                                     React | Vite | Ant Design | Axios | Vercel
                                 </small>
+                                <Card.Img className="border-radius-8" variant="bottom" src="screenshot-climaapp.webp" />
+                                <Button
+                                    className="mt-3 d-grid"
+                                    variant="dark"
+                                    href="https://climaapp-bastianrs.vercel.app/"
+                                    target="_blank"
+                                >
+                                    Visitar
+                                </Button>
                             </Card.Body>
-                            <Card.Img variant="bottom" src="screenshot-climaapp.webp" className="px-2 pb-1" />
-                            <Button variant="dark" href="https://climaapp-bastianrs.vercel.app/" target="_blank">
-                                Visitar
-                            </Button>
                         </Card>
                     </Col>
                 </Row>

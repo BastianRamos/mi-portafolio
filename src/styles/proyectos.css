@@ -1,6 +1,14 @@
 .card-container{
     background-color: azure;
-    width: 22rem;
+    width: 24rem;
+}
+
+.card-container p{
+    font-size: .9rem;
+}
+
+.card-container small{
+    font-size: .7rem;
 }
 
 @media screen and (max-width:576px) {
