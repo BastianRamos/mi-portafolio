@@ -287,7 +287,13 @@ main {
         padding-bottom: 12rem;
         padding-top: 12rem;
     }
+
+    .deslizar-arriba-abajo-fade {
+        animation: deslizar-arriba-abajo-fade ease 3s;
+        -webkit-animation: deslizar-arriba-abajo-fade ease 3s;
+    }
 }
+
 
 @media (min-width:577px) and (max-width:992px) {
     .giant-font{
@@ -297,6 +303,7 @@ main {
         height: auto;
     }
 }
+
 
 @media (min-width:993px) and (max-width:1200px) {
     .contenedor-fondo-gradient-transparente{
