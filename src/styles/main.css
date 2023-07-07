@@ -143,7 +143,7 @@ main {
 }
 
 .altura-titulo-20vh{
-    height: 20vh;
+    height: 16vh;
 }
 
 .semi-white {
@@ -216,8 +216,8 @@ main {
 .contenedor-fondo-gradient-transparente {
     background: linear-gradient(to top, #031621, 90%, #89d1d6);
     height: 100vh;
-    margin-left: 0.2em;
-    opacity: 0.9;
+    margin-left: .2em;
+    opacity: .9;
     text-align: center;
 }
 

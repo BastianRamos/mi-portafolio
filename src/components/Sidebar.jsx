@@ -1,5 +1,7 @@
 import { Link } from "react-scroll"
+
 import '../styles/sidebar.css'
+
 
 export const Sidebar = () => {
     return (
@@ -14,22 +16,27 @@ export const Sidebar = () => {
                 </div>
                 <ul >
                     <div>
-                        <Link activeClass="active" smooth spy to="presentacion">
+                        <Link activeClass="active" spy to="presentacion">
                             <li className="menu-item-sidebar shadow-hover">
                                 Presentación
                             </li>
                         </Link>
-                        <Link activeClass="active" smooth spy to="experiencia">
+                        <Link activeClass="active" spy to="experiencia">
                             <li className="menu-item-sidebar shadow-hover">
                                 Experiencia
                             </li>
                         </Link>
-                        <Link activeClass="active" smooth spy to="tecnologias">
+                        <Link activeClass="active" spy to="tecnologias">
                             <li className="menu-item-sidebar shadow-hover">
                                 Tecnologías
                             </li>
                         </Link>
-                        <Link activeClass="active" smooth spy to="contacto">
+                        <Link activeClass="active" spy to="proyectos">
+                            <li className="menu-item-sidebar shadow-hover">
+                                Proyectos
+                            </li>
+                        </Link>
+                        <Link activeClass="active" spy to="contacto">
                             <li className="menu-item-sidebar shadow-hover">
                                 Contacto
                             </li>

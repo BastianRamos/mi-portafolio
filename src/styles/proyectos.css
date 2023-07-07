@@ -1,0 +1,10 @@
+.card-container{
+    background-color: azure;
+    width: 22rem;
+}
+
+@media screen and (max-width:576px) {
+    .card-container{
+        width: auto;
+    }
+}

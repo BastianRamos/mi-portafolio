@@ -1,5 +1,7 @@
 import PropTypes from 'prop-types'
+
 import '../styles/tarjetaInformativa.css'
+
 
 export const TarjetaInformativa = ({ titulo, parrafo, textoSmall }) => {
     return (

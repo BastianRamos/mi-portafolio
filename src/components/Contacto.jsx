@@ -1,4 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap"
+
 import '../styles/contacto.css'
 
 
@@ -13,7 +14,7 @@ export const Contacto = () => {
                 <Row>
                     <Col xs={12}>
                         <h3 className='d-flex justify-content-center align-items-end altura-titulo'>
-                            👉 Contáctame, Agrégame, Hablemos...
+                            👉 Contáctame, agrégame, hablemos...
                         </h3>
                     </Col>
                     <Col xs={12} sm={4} className="d-flex justify-content-center align-items-center flotar altura-col-icon">

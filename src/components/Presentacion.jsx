@@ -1,7 +1,9 @@
 import { Col, Container, Row } from 'react-bootstrap'
+import { Link } from 'react-scroll'
+
 import '../styles/presentacion.css'
 import '../styles/sidebar.css'
-import { Link } from 'react-scroll'
+
 
 export const Presentacion = () => {
     return (

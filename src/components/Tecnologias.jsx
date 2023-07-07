@@ -1,6 +1,7 @@
 import { Col, Container, Row } from 'react-bootstrap'
 import { TarjetaSkill } from './TarjetaSkill'
 
+
 export const Tecnologias = () => {
     return (
         <section
