@@ -9,8 +9,8 @@
 
 @media screen and (max-width:576px) {
     .altura-titulo{
+        font-size: 1.6rem;
         height: 0;
-        font-size: 1.1rem;
     }
     .altura-col-icon{
         height: 30vh;

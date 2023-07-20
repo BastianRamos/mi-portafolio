@@ -2,7 +2,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import { TarjetaSkill } from './TarjetaSkill'
 
 
-export const Tecnologias = () => {
+export function Tecnologias() {
     return (
         <section
             id="tecnologias"
@@ -12,32 +12,11 @@ export const Tecnologias = () => {
             <Container>
                 <Row className='justify-content-center'>
                     <Col xs={12}>
-                        <h3 className='d-flex justify-content-center align-items-end altura-titulo-20vh'>
+                        <h2 className='d-flex justify-content-center align-items-end title-container'>
                             💻 Skills Tecnológicas
-                        </h3>
+                        </h2>
                     </Col>
 
-                    <Col xs={6} sm={4} lg={3} xl={2} className='d-flex justify-content-center'>
-                        <TarjetaSkill
-                            imagenSrc='logos_tecnologias/sweetalert2-logo.png'
-                            texto='SweetAlert 2'
-                            porcentajeProgreso='60'
-                        />
-                    </Col>
-                    <Col xs={6} sm={4} lg={3} xl={2} className='d-flex justify-content-center'>
-                        <TarjetaSkill
-                            imagenSrc='logos_tecnologias/html5-logo.png'
-                            texto='HTML5'
-                            porcentajeProgreso='50'
-                        />
-                    </Col>
-                    <Col xs={6} sm={4} lg={3} xl={2} className='d-flex justify-content-center'>
-                        <TarjetaSkill
-                            imagenSrc='logos_tecnologias/css3-logo.png'
-                            texto='CSS3'
-                            porcentajeProgreso='50'
-                        />
-                    </Col>
                     <Col xs={6} sm={4} lg={3} xl={2} className='d-flex justify-content-center'>
                         <TarjetaSkill
                             imagenSrc='logos_tecnologias/javascript-logo.png'
@@ -45,6 +24,7 @@ export const Tecnologias = () => {
                             porcentajeProgreso='50'
                         />
                     </Col>
+
                     <Col xs={6} sm={4} lg={3} xl={2} className='d-flex justify-content-center'>
                         <TarjetaSkill
                             imagenSrc='logos_tecnologias/react-logo.png'
@@ -52,6 +32,31 @@ export const Tecnologias = () => {
                             porcentajeProgreso='50'
                         />
                     </Col>
+
+                    <Col xs={6} sm={4} lg={3} xl={2} className='d-flex justify-content-center'>
+                        <TarjetaSkill
+                            imagenSrc='logos_tecnologias/html5-logo.png'
+                            texto='HTML5'
+                            porcentajeProgreso='50'
+                        />
+                    </Col>
+
+                    <Col xs={6} sm={4} lg={3} xl={2} className='d-flex justify-content-center'>
+                        <TarjetaSkill
+                            imagenSrc='logos_tecnologias/css3-logo.png'
+                            texto='CSS3'
+                            porcentajeProgreso='50'
+                        />
+                    </Col>
+
+                    <Col xs={6} sm={4} lg={3} xl={2} className='d-flex justify-content-center'>
+                        <TarjetaSkill
+                            imagenSrc='logos_tecnologias/sweetalert2-logo.png'
+                            texto='SweetAlert 2'
+                            porcentajeProgreso='50'
+                        />
+                    </Col>
+
                     <Col xs={6} sm={4} lg={3} xl={2} className='d-flex justify-content-center'>
                         <TarjetaSkill
                             imagenSrc='logos_tecnologias/bootstrap-logo.png'
@@ -59,6 +64,7 @@ export const Tecnologias = () => {
                             porcentajeProgreso='40'
                         />
                     </Col>
+
                     <Col xs={6} sm={4} lg={3} xl={2} className='d-flex justify-content-center'>
                         <TarjetaSkill
                             imagenSrc='logos_tecnologias/mui-logo.png'
@@ -66,18 +72,20 @@ export const Tecnologias = () => {
                             porcentajeProgreso='40'
                         />
                     </Col>
+
                     <Col xs={6} sm={4} lg={3} xl={2} className='d-flex justify-content-center'>
                         <TarjetaSkill
                             imagenSrc='logos_tecnologias/ant-design-logo.png'
                             texto='Ant Design'
-                            porcentajeProgreso='30'
+                            porcentajeProgreso='40'
                         />
                     </Col>
+
                     <Col xs={6} sm={4} lg={3} xl={2} className='d-flex justify-content-center'>
                         <TarjetaSkill
                             imagenSrc='logos_tecnologias/git-logo.png'
                             texto='Git'
-                            porcentajeProgreso='30'
+                            porcentajeProgreso='40'
                         />
                     </Col>
                 </Row>

@@ -2,7 +2,7 @@ import { Col, Container, Row, Card, Button } from "react-bootstrap"
 
 import '../styles/proyectos.css'
 
-export const Proyectos = () => {
+export function Proyectos() {
     return (
         <section
             id="proyectos"
@@ -12,9 +12,9 @@ export const Proyectos = () => {
             <Container>
                 <Row>
                     <Col xs={12}>
-                        <h3 className='d-flex justify-content-center align-items-end altura-titulo-20vh'>
+                        <h2 className='d-flex justify-content-center align-items-end title-container'>
                             📂 Proyectos Web
-                        </h3>
+                        </h2>
                     </Col>
                     <Col xs={12} className="mt-5" align='center'>
                         <Card className="card-container flotar">
@@ -22,7 +22,7 @@ export const Proyectos = () => {
                                 <Card.Title className="text-dark ">
                                     Clima APP
                                 </Card.Title>
-                                <Card.Text className="text-secondary text-justify lh-sm">
+                                <Card.Text className="text-secondary align-paragraph lh-sm">
                                     Con geolocalización o al ingresar una ciudad mostrará datos climáticos del momento.
                                     Desarrollada en React con componentes de Ant Design, conexión a las APIs de AccuWeather y
                                     alojada en la nube con Vercel.
@@ -32,10 +32,11 @@ export const Proyectos = () => {
                                 </small>
                                 <Card.Img className="border-radius-8" variant="bottom" src="screenshot-climaapp.webp" />
                                 <Button
-                                    className="mt-3 d-grid"
-                                    variant="dark"
+                                    className="mt-3 d-grid react-bg-color"
+                                    variant="secondary"
                                     href="https://climaapp-bastianrs.vercel.app/"
                                     target="_blank"
+                                    size="lg"
                                 >
                                     Visitar
                                 </Button>

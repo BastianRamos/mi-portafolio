@@ -142,7 +142,7 @@ main {
     margin-left: 20vw;
 }
 
-.altura-titulo-20vh{
+.title-container{
     height: 16vh;
 }
 
@@ -166,12 +166,17 @@ main {
     color: #61dafb;
 }
 
+.react-bg-color{
+    background-color: #61dafb;
+    border: none;
+}
+
 .background-react-color{
     background-color: #61dafb;
 }
 
-.text-justify {
-    text-align: justify;
+.align-paragraph {
+    text-align: left;
 }
 
 .deslizar-arriba-abajo-fade {
@@ -221,16 +226,6 @@ main {
     text-align: center;
 }
 
-.flip{
-    transition: all ease-out 2s;
-    -webkit-transition: all ease-out 2s;
-}
-
-.flip:hover{
-    transform: rotateY(-360deg);
-    -webkit-transform: rotateY(-360deg);
-}
-
 .border-radius-8{
     border-radius: 8px;
 }
@@ -275,8 +270,8 @@ main {
         font-size: 1.8rem;
     }
 
-    .altura-titulo-20vh{
-        font-size: 1.3rem;
+    .title-container{
+        font-size: 1.6rem;
         height: 0vh;
     }
 
@@ -291,6 +286,10 @@ main {
     .deslizar-arriba-abajo-fade {
         animation: deslizar-arriba-abajo-fade ease 3s;
         -webkit-animation: deslizar-arriba-abajo-fade ease 3s;
+    }
+
+    .align-paragraph{
+        text-align: center;
     }
 }
 

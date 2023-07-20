@@ -3,7 +3,7 @@ import { Col, Container, Row } from "react-bootstrap"
 import '../styles/contacto.css'
 
 
-export const Contacto = () => {
+export function Contacto() {
     return (
         <section
             id="contacto"
@@ -13,9 +13,9 @@ export const Contacto = () => {
             <Container>
                 <Row>
                     <Col xs={12}>
-                        <h3 className='d-flex justify-content-center align-items-end altura-titulo'>
+                        <h2 className='d-flex justify-content-center align-items-end altura-titulo'>
                             👉 Contáctame, agrégame, hablemos...
-                        </h3>
+                        </h2>
                     </Col>
                     <Col xs={12} sm={4} className="d-flex justify-content-center align-items-center flotar altura-col-icon">
                         <a

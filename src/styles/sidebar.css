@@ -32,7 +32,7 @@
 }
 
 .imagen-perfil {
-    background-image: url('../../public/yo-linkedin.jpg');
+    background-image: url('yo-linkedin.jpg');
     background-position: center;
     background-size: cover;
     border: solid 3px #ccd6f6;
@@ -58,13 +58,13 @@
     border: solid 1px #149eca;
     border-radius: 20px;
     cursor: pointer;
+    font-size: .9rem;
     margin-bottom: 1.5em;
     padding-bottom: .5em;
     padding-top: .5em;
     text-align: center;
     transition: all ease .4s;
     width: 12vw;
-    font-size: .9rem;
 }
 
 .menu-item-sidebar:hover{
@@ -79,12 +79,12 @@
 
 @media screen and (max-width:576px) {
     .imagen-perfil{
-        height: 80px;
-        width: 80px;
-        margin: 0;
         box-shadow: rgba(97, 218, 251, 0.4) 0px 30px 90px;
+        height: 80px;
+        margin: 0;
         transform: scale(1.2);
         -webkit-transform: scale(1.2);
+        width: 80px;
     }
 }
 

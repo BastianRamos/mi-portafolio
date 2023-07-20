@@ -5,7 +5,7 @@ import '../styles/presentacion.css'
 import '../styles/sidebar.css'
 
 
-export const Presentacion = () => {
+export function Presentacion() {
     return (
         <section
             id='presentacion'
@@ -31,7 +31,7 @@ export const Presentacion = () => {
                         <p className="text-end text-sm-start soft-gray giant-font bold lh-1 my-3 my-md-2 my-lg-0">
                             Me gusta el desarrollo web, en especial trabajar con <b className="react-color">React.</b>
                         </p>
-                        <p className="semi-white lh-sm text-justify">
+                        <p className="semi-white lh-sm align-paragraph">
                             Soy ingeniero en informática 👨‍🎓 titulado de Duoc UC en Santiago de Chile 🇨🇱. Me desempeño como
                             desarrollador front end, con mucho interés por continuar aprendiendo sobre las
                             tecnologías ligadas a javascript, responsividad, seguridad, buenas prácticas,

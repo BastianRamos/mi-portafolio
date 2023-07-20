@@ -3,7 +3,7 @@ import { Link } from "react-scroll"
 import '../styles/sidebar.css'
 
 
-export const Sidebar = () => {
+export function Sidebar() {
     return (
         <aside className="contenedor-sidebar d-none d-sm-block">
             <div className="sidebar deslizar-derecha-izquierda">

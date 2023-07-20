@@ -2,18 +2,7 @@ import { Col, Container, Row } from "react-bootstrap"
 import { TarjetaInformativa } from "./TarjetaInformativa"
 
 
-export const Experiencia = () => {
-
-    const idsTarjetas = ['tarjetaHyundai', 'tarjetaAduana', 'tarjetaWetforest']
-
-
-    const quitarAgregarClase = (idElemento) => {
-        idsTarjetas.forEach(idTarjeta => {
-            document.getElementById(idTarjeta).classList.add('flip')
-        })
-        document.getElementById(idElemento).classList.remove('flip')
-    }
-
+export function Experiencia() {
 
     return (
         <section
@@ -24,11 +13,11 @@ export const Experiencia = () => {
             <Container>
                 <Row className="justify-content-sm-center">
                     <Col xs={12}>
-                        <h3 className='d-flex justify-content-center align-items-end altura-titulo-20vh'>
+                        <h2 className='d-flex justify-content-center align-items-end title-container'>
                             💼 Experiencia Laboral
-                        </h3>
-                        <div className="flotar mt-5">
-                            <h6> {'>'} Desarrollador Frontend - Hackmonkeys S.A</h6>
+                        </h2>
+                        <div className="flotar mt-5 pt-3 mb-3">
+                            <h6>Desarrollador Frontend - Hackmonkeys S.A</h6>
                             <h6 style={{ fontSize: '.8rem' }}>Marzo 2021 a Diciembre 2022</h6>
                         </div>
                     </Col>
@@ -36,13 +25,10 @@ export const Experiencia = () => {
                         xs={12}
                         sm={6}
                         lg={4}
-                        id="tarjetaHyundai"
-                        className="flip"
-                        onMouseLeave={() => quitarAgregarClase('tarjetaHyundai')}
                     >
                         <TarjetaInformativa
                             titulo="Hyundai Buses y Camiones"
-                            parrafo="Desarrollé el back office y presté apoyo en el desarrollo del sitio web para correcciones del cliente, responsividad, pop ups, validaciones, mostrar información extraida de APIs e implementación de librerias."
+                            parrafo="Desarrollé el back office y presté apoyo en el desarrollo de la app web realizando correcciones atrasadas enviadas por el cliente, problemas de responsividad, pop ups, validaciones, conexión a APIs Rest y también aprendí a utilizar nuevas librerias y frameworks."
                             textoSmall="Tecnologías: ReactJS, HTML, CSS, SweetAlert2, Ant Design, Google Maps, Azure y Git."
                         />
                     </Col>
@@ -50,9 +36,7 @@ export const Experiencia = () => {
                         xs={12}
                         sm={6}
                         lg={4}
-                        id="tarjetaAduana"
                         className="my-4 my-sm-0 "
-                        onMouseLeave={() => quitarAgregarClase('tarjetaAduana')}
                     >
                         <TarjetaInformativa
                             titulo="Agencia de Aduanas Aníbal Moya"
@@ -65,12 +49,10 @@ export const Experiencia = () => {
                         sm={6}
                         lg={4}
                         className="mt-sm-4 mt-lg-0"
-                        id="tarjetaWetforest"
-                        onMouseLeave={() => quitarAgregarClase('tarjetaWetforest')}
                     >
                         <TarjetaInformativa
                             titulo="Wetforest Ventures"
-                            parrafo="Se construyó una landing page con mucha información y con una primera idea de parte del cliente demasiado clásica y anticuada. Como resultado se consiguió un sitio web dinámico, moderno, con movimiento y colores adecuados. Por otra parte, debía mantener reuniones online con los stakeholders y comunicación formal vía correo."
+                            parrafo="Se construyó una landing page con mucha información y con una primera idea de parte del cliente demasiado clásica y anticuada. Como resultado se consiguió un sitio web dinámico, moderno, con movimiento y colores adecuados. Se agregó la opción de iniciar sesión como empresa para interactuar a través de un cuestionario para obtener asesoría de strategic advisors. Además, debía mantener reuniones online con los stakeholders y comunicación formal vía correo."
                             textoSmall="Tecnologías: HTML, CSS, JavaScript, Git y Google Cloud."
                         />
 

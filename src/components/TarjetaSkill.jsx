@@ -4,7 +4,7 @@ import { Card, ProgressBar } from 'react-bootstrap'
 import '../styles/tarjetaSkill.css'
 
 
-export const TarjetaSkill = ({ imagenSrc, texto, porcentajeProgreso }) => {
+export function TarjetaSkill({ imagenSrc, texto, porcentajeProgreso }) {
     return (
         <Card className='contenedor-tarjeta rebote-vertical-hover'>
             <Card.Img variant='top' src={imagenSrc} className='p-2' aria-label={`Logo ${texto}`} />

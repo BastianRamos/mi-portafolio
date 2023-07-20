@@ -1,7 +1,7 @@
 import { Link } from "react-scroll"
 
 
-export const BotonVolverArriba = () => {
+export function BotonVolverArriba() {
 
     window.onscroll = () => {
         const scrollVertical = window.scrollY
