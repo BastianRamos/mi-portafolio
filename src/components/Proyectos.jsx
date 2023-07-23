@@ -2,6 +2,10 @@ import { Col, Container, Row, Card, Button } from "react-bootstrap"
 
 import '../styles/proyectos.css'
 
+const URL_CLIMAAPP = 'https://climaapp-bastianrs.vercel.app/'
+
+
+
 export function Proyectos() {
     return (
         <section
@@ -32,9 +36,9 @@ export function Proyectos() {
                                 </small>
                                 <Card.Img className="border-radius-8" variant="bottom" src="screenshot-climaapp.webp" />
                                 <Button
-                                    className="mt-3 d-grid react-bg-color"
+                                    className="mt-3 d-grid react-bg-color shadow-hover"
                                     variant="secondary"
-                                    href="https://climaapp-bastianrs.vercel.app/"
+                                    href={URL_CLIMAAPP}
                                     target="_blank"
                                     size="lg"
                                 >

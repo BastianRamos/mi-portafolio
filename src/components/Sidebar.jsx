@@ -16,27 +16,27 @@ export function Sidebar() {
                 </div>
                 <ul >
                     <div>
-                        <Link activeClass="active" spy to="presentacion">
+                        <Link activeClass="active" spy smooth to="presentacion" duration={1000} delay={0}>
                             <li className="menu-item-sidebar shadow-hover">
                                 Presentación
                             </li>
                         </Link>
-                        <Link activeClass="active" spy to="experiencia">
+                        <Link activeClass="active" spy smooth to="experiencia" duration={1000} delay={0}>
                             <li className="menu-item-sidebar shadow-hover">
                                 Experiencia
                             </li>
                         </Link>
-                        <Link activeClass="active" spy to="tecnologias">
+                        <Link activeClass="active" spy smooth to="tecnologias" duration={1000} delay={0}>
                             <li className="menu-item-sidebar shadow-hover">
                                 Tecnologías
                             </li>
                         </Link>
-                        <Link activeClass="active" spy to="proyectos">
+                        <Link activeClass="active" spy smooth to="proyectos" duration={1000} delay={0}>
                             <li className="menu-item-sidebar shadow-hover">
                                 Proyectos
                             </li>
                         </Link>
-                        <Link activeClass="active" spy to="contacto">
+                        <Link activeClass="active" spy smooth to="contacto" duration={1000} delay={0}>
                             <li className="menu-item-sidebar shadow-hover">
                                 Contacto
                             </li>

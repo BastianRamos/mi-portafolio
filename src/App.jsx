@@ -5,10 +5,12 @@ import { Experiencia } from "./components/Experiencia"
 import { Contacto } from "./components/Contacto"
 import { BotonVolverArriba } from "./components/BotonVolverArriba"
 import { Proyectos } from "./components/Proyectos"
+import MenuMobile from "./components/MenuMobile"
 
 function App() {
   return (
     <>
+      <MenuMobile />
       <Sidebar />
       <main>
         <video id="video-fondo" autoPlay loop >

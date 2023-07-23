@@ -131,6 +131,7 @@
     color: #fff;
     font-family: Rubik, Arial, Helvetica, sans-serif;
     list-style-type: none !important;
+    scrollbar-width: none;
     text-decoration: none !important;
 }
 

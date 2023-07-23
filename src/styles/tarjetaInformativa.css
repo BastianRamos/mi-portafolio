@@ -17,6 +17,7 @@
 
 @media screen and (max-width:576px) {
     .contenedor{
-        height: 40vh;
+        max-height: 46vh;
+        min-height: 40vh;
     }
 }
