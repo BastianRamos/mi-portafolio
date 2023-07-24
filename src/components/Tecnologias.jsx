@@ -17,7 +17,7 @@ export function Tecnologias() {
                         </h2>
                     </Col>
 
-                    <Col xs={6} sm={4} lg={3} xl={2} className='d-flex justify-content-center'>
+                    <Col xs={4} lg={3} xl={2} className='d-flex justify-content-center'>
                         <TarjetaSkill
                             imagenSrc='logos_tecnologias/javascript-logo.png'
                             texto='JavaScript ES6'
@@ -25,7 +25,7 @@ export function Tecnologias() {
                         />
                     </Col>
 
-                    <Col xs={6} sm={4} lg={3} xl={2} className='d-flex justify-content-center'>
+                    <Col xs={4} lg={3} xl={2} className='d-flex justify-content-center'>
                         <TarjetaSkill
                             imagenSrc='logos_tecnologias/react-logo.png'
                             texto='ReactJS'
@@ -33,7 +33,7 @@ export function Tecnologias() {
                         />
                     </Col>
 
-                    <Col xs={6} sm={4} lg={3} xl={2} className='d-flex justify-content-center'>
+                    <Col xs={4} lg={3} xl={2} className='d-flex justify-content-center'>
                         <TarjetaSkill
                             imagenSrc='logos_tecnologias/html5-logo.png'
                             texto='HTML5'
@@ -41,7 +41,7 @@ export function Tecnologias() {
                         />
                     </Col>
 
-                    <Col xs={6} sm={4} lg={3} xl={2} className='d-flex justify-content-center'>
+                    <Col xs={4} lg={3} xl={2} className='d-flex justify-content-center'>
                         <TarjetaSkill
                             imagenSrc='logos_tecnologias/css3-logo.png'
                             texto='CSS3'
@@ -49,7 +49,7 @@ export function Tecnologias() {
                         />
                     </Col>
 
-                    <Col xs={6} sm={4} lg={3} xl={2} className='d-flex justify-content-center'>
+                    <Col xs={4} lg={3} xl={2} className='d-flex justify-content-center'>
                         <TarjetaSkill
                             imagenSrc='logos_tecnologias/sweetalert2-logo.png'
                             texto='SweetAlert 2'
@@ -57,7 +57,7 @@ export function Tecnologias() {
                         />
                     </Col>
 
-                    <Col xs={6} sm={4} lg={3} xl={2} className='d-flex justify-content-center'>
+                    <Col xs={4} lg={3} xl={2} className='d-flex justify-content-center'>
                         <TarjetaSkill
                             imagenSrc='logos_tecnologias/bootstrap-logo.png'
                             texto='Bootstrap'
@@ -65,7 +65,7 @@ export function Tecnologias() {
                         />
                     </Col>
 
-                    <Col xs={6} sm={4} lg={3} xl={2} className='d-flex justify-content-center'>
+                    <Col xs={4} lg={3} xl={2} className='d-flex justify-content-center'>
                         <TarjetaSkill
                             imagenSrc='logos_tecnologias/mui-logo.png'
                             texto='Material UI'
@@ -73,7 +73,7 @@ export function Tecnologias() {
                         />
                     </Col>
 
-                    <Col xs={6} sm={4} lg={3} xl={2} className='d-flex justify-content-center'>
+                    <Col xs={4} lg={3} xl={2} className='d-flex justify-content-center'>
                         <TarjetaSkill
                             imagenSrc='logos_tecnologias/ant-design-logo.png'
                             texto='Ant Design'
@@ -81,7 +81,7 @@ export function Tecnologias() {
                         />
                     </Col>
 
-                    <Col xs={6} sm={4} lg={3} xl={2} className='d-flex justify-content-center'>
+                    <Col xs={4} lg={3} xl={2} className='d-flex justify-content-center'>
                         <TarjetaSkill
                             imagenSrc='logos_tecnologias/git-logo.png'
                             texto='Git'

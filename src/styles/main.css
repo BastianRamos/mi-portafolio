@@ -1,12 +1,11 @@
-/* __________FONTS_________ */
+/* ____________________FONTS___________________ */
 @font-face {
     font-family: Rubik;
     src: url(../fonts/Rubik-Regular.ttf);
 }
 
 
-
-/* __________KEYFRAMES__________ */
+/* ____________________KEYFRAMES___________________ */
 @keyframes rebote-vertical-hover {
     16.65% {
       -webkit-transform: translateY(8px);
@@ -125,8 +124,7 @@
 }
 
 
-
-/* __________GLOBALES__________ */
+/* ____________________GLOBALES____________________ */
 * {
     color: #fff;
     font-family: Rubik, Arial, Helvetica, sans-serif;
@@ -232,8 +230,7 @@ main {
 }
 
 
-
-/* __________IDs__________ */
+/* ____________________IDs____________________ */
 #sticky-container-bottom-cohete{
     border: 1px solid #2a8bff;
     border-radius: 50%;
@@ -260,8 +257,7 @@ main {
 }
 
 
-
-/* MEDIA QUERYS */
+/* ____________________MEDIA QUERYS____________________ */
 @media screen and (max-width:576px) {
     main{
         margin-left: 0;
@@ -294,16 +290,11 @@ main {
     }
 }
 
-
 @media (min-width:577px) and (max-width:992px) {
     .giant-font{
         font-size: 2rem;
     }
-    .contenedor-fondo-gradient-transparente{
-        height: auto;
-    }
 }
-
 
 @media (min-width:993px) and (max-width:1200px) {
     .contenedor-fondo-gradient-transparente{

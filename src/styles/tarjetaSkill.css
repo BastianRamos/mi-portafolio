@@ -2,13 +2,23 @@
     background: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%) !important;
     bottom: 0;
     margin-top:3em;
+    max-height: 80%;
     transition: all ease-out 0.4s;
     width:80%;
-    max-height: 80%;
 }
 
 .text-tarjeta{
     color: #000;
     font-size: .7rem;
     margin-bottom: .2em;
+}
+
+@media screen and (max-width:576px) {
+    .contenedor-tarjeta{
+        width: 100%;
+    }
+
+    .text-tarjeta{
+        font-size: .5rem;
+    }
 }

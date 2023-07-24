@@ -1,7 +1,7 @@
 import { Link } from 'react-scroll'
 import { Container, Nav, Navbar } from "react-bootstrap"
 
-const NAVBAR_STYLE = { backgroundColor: 'rgba(32, 64, 73, 1)', textAlign: 'center' }
+const NAVBAR_STYLE = { backgroundColor: 'rgb(32, 64, 73)', textAlign: 'center' }
 
 
 function MenuMobile() {
