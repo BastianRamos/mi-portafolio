@@ -11,6 +11,18 @@
     font-size: .7rem;
 }
 
+.button-card{
+    border-radius: 20px !important;
+    display: grid !important;
+    margin-top: 1rem !important;
+    transition: all ease .4s !important;
+    font-weight: bold !important;
+}
+
+.button-card:hover{
+    transform: scale(0.96);
+}
+
 @media screen and (max-width:576px) {
     .card-container{
         width: 90%;

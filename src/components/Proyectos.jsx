@@ -36,7 +36,7 @@ export function Proyectos() {
                                 </small>
                                 <Card.Img className="border-radius-8" variant="bottom" src="screenshot-climaapp.webp" />
                                 <Button
-                                    className="mt-3 d-grid react-bg-color shadow-hover"
+                                    className="react-bg-color button-card shadow-hover"
                                     variant="secondary"
                                     href={URL_CLIMAAPP}
                                     target="_blank"
