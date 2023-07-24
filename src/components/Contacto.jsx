@@ -2,6 +2,13 @@ import { Col, Container, Row } from "react-bootstrap"
 
 import '../styles/contacto.css'
 
+const URL_GMAIL = 'mailto:bastian2jz@gmail.com'
+const URL_GITHUB = 'https://github.com/BastianRamos'
+const URL_LINKEDIN = 'https://www.linkedin.com/in/bastianrs/'
+
+const ICON_GMAIL = 'iconos_contacto/gmail.png'
+const ICON_GITHUB = 'iconos_contacto/github-icon.png'
+const ICON_LINKEDIN = 'iconos_contacto/linkedin.png'
 
 export function Contacto() {
     return (
@@ -20,11 +27,11 @@ export function Contacto() {
                     <Col xs={12} sm={4} className="d-flex justify-content-center align-items-center flotar altura-col-icon">
                         <a
                             className="hover-grow"
-                            href="https://www.linkedin.com/in/bastianrs/"
+                            href={URL_LINKEDIN}
                             target="_blank"
                         >
                             <img
-                                src="iconos_contacto/linkedin.png"
+                                src={ICON_LINKEDIN}
                                 height={60}
                                 width={60}
                                 alt="Icono de linkedin"
@@ -32,9 +39,9 @@ export function Contacto() {
                         </a>
                     </Col>
                     <Col xs={12} sm={4} className="d-flex justify-content-center align-items-center flotar altura-col-icon">
-                        <a className="hover-grow" href="mailto:bastian2jz@gmail.com">
+                        <a className="hover-grow" href={URL_GMAIL} >
                             <img
-                                src="iconos_contacto/gmail.png"
+                                src={ICON_GMAIL}
                                 height={60}
                                 width={60}
                                 alt="Icono de gmail"
@@ -44,11 +51,11 @@ export function Contacto() {
                     <Col xs={12} sm={4} className="d-flex justify-content-center align-items-center flotar altura-col-icon">
                         <a
                             className="hover-grow"
-                            href="https://github.com/BastianRamos"
+                            href={URL_GITHUB}
                             target="_blank"
                         >
                             <img
-                                src="iconos_contacto/github-icon.png"
+                                src={ICON_GITHUB}
                                 height={60}
                                 width={60}
                                 alt="Icono de linkedin"

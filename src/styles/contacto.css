@@ -13,7 +13,12 @@
         height: 0;
     }
     .altura-col-icon{
-        height: 30vh;
+        height: 0;
+    }
+
+    .altura-col-icon a img{
+        height: 50px;
+        width: 50px;
     }
 }
 
