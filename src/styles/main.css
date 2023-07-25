@@ -296,7 +296,7 @@ main {
     }
 
     .contenedor-fondo-gradient-transparente{
-        height: auto;
+        min-height: 110vh;
         padding-bottom: 8rem;
         padding-top: 8rem;
     }
