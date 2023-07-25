@@ -294,6 +294,16 @@ main {
     .giant-font{
         font-size: 2rem;
     }
+
+    .contenedor-fondo-gradient-transparente{
+        height: auto;
+        padding-bottom: 8rem;
+        padding-top: 8rem;
+    }
+
+    .title-container{
+        height: 0;
+    }
 }
 
 @media (min-width:993px) and (max-width:1200px) {
