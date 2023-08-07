@@ -5,8 +5,16 @@ const NAVBAR_STYLE = { backgroundColor: 'rgb(32, 64, 73)', textAlign: 'center' }
 
 
 function MenuMobile() {
+
+    window.onscroll = () => {
+        window.scrollY > 850
+            ? document.getElementById('menu-mobile').classList.remove('d-none')
+            : document.getElementById('menu-mobile').classList.add('d-none')
+    }
+
+
     return (
-        <Navbar className="bg-body-tertiary d-sm-none" collapseOnSelect expand={false} variant="dark" sticky="top" style={NAVBAR_STYLE}>
+        <Navbar id='menu-mobile' className="bg-body-tertiary d-sm-none d-none" collapseOnSelect expand={false} variant="dark" sticky="top" style={NAVBAR_STYLE}>
             <Container>
                 <Navbar.Brand>
                     <Link activeClass="active" to="presentacion" smooth duration={1000}>

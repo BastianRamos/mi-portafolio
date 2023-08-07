@@ -25,9 +25,8 @@
     align-items: center;
     display: flex;
     height: 100vh;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-align: justify;
+    padding-left: 14%;
+    padding-right: 14%;
 }
 
 .container-presentacion p {
@@ -38,10 +37,10 @@
 #container-btn-bajar{
     border: 2px solid #ab3cff;
     border-radius: 50%;
-    height: 40px;
-    width: 40px;
     cursor: pointer;
+    height: 40px;
     margin-top: 14vh;
+    width: 40px;
 }
 
 @media screen and (max-width:576px) {

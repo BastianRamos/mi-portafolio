@@ -3,13 +3,8 @@ import { Link } from "react-scroll"
 
 export function BotonVolverArriba() {
 
-    window.onscroll = () => {
-        const scrollVertical = window.scrollY
+    window.onscroll = () => window.scrollY > 950 && document.getElementById('linkBtnSubir').classList.remove('d-none')
 
-        if (scrollVertical > 950) {
-            document.getElementById('linkBtnSubir').classList.remove('d-none')
-        }
-    }
 
     return (
         <Link id="linkBtnSubir" className="d-none d-sm-none" spy to="presentacion">

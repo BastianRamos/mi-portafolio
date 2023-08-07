@@ -178,6 +178,10 @@ main {
     text-align: left;
 }
 
+.text-shadow-black{
+    text-shadow: 1px 1px 1px #000;
+}
+
 .deslizar-arriba-abajo-fade {
     animation: deslizar-arriba-abajo-fade ease 4s;
     -webkit-animation: deslizar-arriba-abajo-fade ease 4s;
