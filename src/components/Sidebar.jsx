@@ -5,7 +5,7 @@ import '../styles/sidebar.css'
 
 export function Sidebar() {
     return (
-        <aside className="contenedor-sidebar d-none d-sm-block">
+        <aside className="contenedor-sidebar d-none d-sm-block aparecer">
             <div className="sidebar deslizar-derecha-izquierda">
                 <div className="perfil ">
                     <div className="imagen-perfil shadow-hover hover-grow" />

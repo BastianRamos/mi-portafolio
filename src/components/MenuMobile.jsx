@@ -1,20 +1,12 @@
 import { Link } from 'react-scroll'
 import { Container, Nav, Navbar } from "react-bootstrap"
 
-const NAVBAR_STYLE = { backgroundColor: 'rgb(32, 64, 73)', textAlign: 'center' }
+const NAVBAR_STYLE = { backgroundColor: 'rgba(32, 64, 73, .6)', textAlign: 'center', backdropFilter: 'blur(10px)' }
 
 
 function MenuMobile() {
-
-    window.onscroll = () => {
-        window.scrollY > 850
-            ? document.getElementById('menu-mobile').classList.remove('d-none')
-            : document.getElementById('menu-mobile').classList.add('d-none')
-    }
-
-
     return (
-        <Navbar id='menu-mobile' className="bg-body-tertiary d-sm-none d-none" collapseOnSelect expand={false} variant="dark" sticky="top" style={NAVBAR_STYLE}>
+        <Navbar id='menu-mobile' className="bg-body-tertiary d-none d-sm-none aparecer" collapseOnSelect expand={false} variant="dark" sticky="top" style={NAVBAR_STYLE}>
             <Container>
                 <Navbar.Brand>
                     <Link activeClass="active" to="presentacion" smooth duration={1000}>

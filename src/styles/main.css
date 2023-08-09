@@ -5,6 +5,7 @@
 }
 
 
+
 /* ____________________KEYFRAMES___________________ */
 @keyframes rebote-vertical-hover {
     16.65% {
@@ -74,8 +75,8 @@
 
 @keyframes deslizar-derecha-izquierda {
     0% {
-        transform: translateX(80vw);
-        -webkit-transform: translateX(80vw);
+        transform: translateX(70vw);
+        -webkit-transform: translateX(70vw);
     }
 
     60% {
@@ -122,6 +123,17 @@
         -webkit-transform: scale(0.95);
     }
 }
+
+@keyframes aparecer {
+    from{
+        opacity: 0;
+    }
+    
+    to{
+        opacity: 1;
+    }
+}
+
 
 
 /* ____________________GLOBALES____________________ */
@@ -233,6 +245,12 @@ main {
     border-radius: 8px;
 }
 
+.aparecer{
+    animation: aparecer ease-out 1s;
+    -webkit-animation: aparecer ease-out 1s;
+}
+
+
 
 /* ____________________IDs____________________ */
 #sticky-container-bottom-cohete{
@@ -259,6 +277,7 @@ main {
     width: 100vw;
     z-index: -1;
 }
+
 
 
 /* ____________________MEDIA QUERYS____________________ */
