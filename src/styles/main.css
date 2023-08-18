@@ -235,9 +235,10 @@ main {
 
 .contenedor-fondo-gradient-transparente {
     background: linear-gradient(to top, #031621, 90%, #89d1d6);
-    height: 100vh;
     margin-left: .2em;
+    min-height: 100vh;
     opacity: .9;
+    padding-bottom: 2rem;
     text-align: center;
 }
 

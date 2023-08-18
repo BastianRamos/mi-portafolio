@@ -17,7 +17,7 @@ export function Experiencia() {
                             💼 Experiencia Laboral
                         </h2>
                         <div className="flotar mt-5 pt-3 mb-3">
-                            <h6>Desarrollador Frontend - Hackmonkeys S.A</h6>
+                            <h6>Desarrollador Front End - Hackmonkeys S.A</h6>
                             <h6 style={{ fontSize: '.8rem' }}>Marzo 2021 a Diciembre 2022</h6>
                         </div>
                     </Col>
@@ -28,8 +28,9 @@ export function Experiencia() {
                     >
                         <TarjetaInformativa
                             titulo="Hyundai Buses y Camiones"
-                            parrafo="Desarrollé el back office y presté apoyo en el desarrollo de la app web realizando correcciones atrasadas enviadas por el cliente, problemas de responsividad, pop ups, validaciones, conexión a APIs Rest y también aprendí a utilizar nuevas librerias y frameworks."
-                            textoSmall="Tecnologías: ReactJS, HTML, CSS, SweetAlert2, Ant Design, Google Maps, Azure y Git."
+                            parrafo="Desarrollé el back office y presté apoyo en el desarrollo de la app web realizando tareas atrasadas que consistian en problemas de responsividad, pop ups, validaciones, conexión a APIs Rest y también aprendí a utilizar nuevas librerias y frameworks."
+                            textoSmall="ReactJS | HTML | CSS | SweetAlert2 | Ant Design | Google Maps | Azure | Git"
+                            image='/proyectos/hyundai-web-navegador.webp'
                         />
                     </Col>
                     <Col
@@ -40,8 +41,9 @@ export function Experiencia() {
                     >
                         <TarjetaInformativa
                             titulo="Agencia de Aduanas Aníbal Moya"
-                            parrafo="Proyecto web de uso privado, ya se encontraba avanzado en desarrollo pero sin terminar donde se corrigieron muchos errores de actualización y visualización de información. Se implementó fullcalendar para gestionar las fechas de llegada de los barcos a la aduana. El objetivo principal era disminuir los tiempos de algunos procesos que se realizaban en papel y obtener información actualizada para todo el personal. Proyecto extenso debido a la gran cantidad de documentación y procesos internos."
-                            textoSmall="Tecnologías: ReactJS, HTML, CSS, Material UI, SweetAlert2, Git y Firebase."
+                            parrafo="Proyecto web de uso privado, ya se encontraba avanzado en desarrollo y mi misión era corregir muchos errores de actualización y visualización de información. Luego implementamos fullcalendar para gestionar las fechas de llegada de los barcos a la aduana. Como objetivo principal debíamos disminuir los tiempos de algunos procesos que se realizaban en papel y ofrecer información actualizada para todo el personal."
+                            textoSmall="ReactJS | HTML | CSS | Material UI | SweetAlert2 | Git | Firebase"
+                            image='/proyectos/moya-web-navegador.webp'
                         />
                     </Col>
                     <Col
@@ -52,8 +54,9 @@ export function Experiencia() {
                     >
                         <TarjetaInformativa
                             titulo="Wetforest Ventures"
-                            parrafo="Se construyó una landing page con mucha información y con una primera idea de parte del cliente demasiado clásica y anticuada. Como resultado se consiguió un sitio web dinámico, moderno, con movimiento y colores adecuados. Se agregó la opción de iniciar sesión como empresa para interactuar a través de un cuestionario para obtener asesoría de strategic advisors. Además, debía mantener reuniones online con los stakeholders y comunicación formal vía correo."
-                            textoSmall="Tecnologías: HTML, CSS, JavaScript, Git y Google Cloud."
+                            parrafo="Se construyó una landing page con mucha información con un look moderno, con movimiento y colores adecuados. Además ofrece la opción de iniciar sesión como empresa para interactuar a través de un cuestionario para obtener asesoría de strategic advisors. Participé en la gestión manteniendo reuniones online con los stakeholders y comunicación formal vía correo."
+                            textoSmall="HTML | CSS | JavaScript | Git | Google Cloud"
+                            image='/proyectos/wetforest-web-navegador.webp'
                         />
 
                     </Col>

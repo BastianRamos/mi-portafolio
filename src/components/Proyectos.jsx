@@ -31,10 +31,10 @@ export function Proyectos() {
                                     Desarrollada en React con componentes de Ant Design, conexión a las APIs de AccuWeather y
                                     alojada en la nube con Vercel.
                                 </Card.Text>
-                                <small className="text-secondary bold">
+                                <small className="text-secondary">
                                     React | Vite | Ant Design | Axios | Vercel
                                 </small>
-                                <Card.Img className="border-radius-8" variant="bottom" src="screenshot-climaapp.webp" />
+                                <Card.Img variant="bottom" src="/proyectos/climaapp-web.webp" />
                                 <Button
                                     className="react-bg-color button-card shadow-hover"
                                     variant="secondary"
