@@ -1,4 +1,4 @@
-import { Col, Container, Row, Card, Button } from "react-bootstrap"
+import { Col, Container, Row, Card, Button, Badge, Stack } from "react-bootstrap"
 
 import '../styles/proyectos.css'
 
@@ -31,9 +31,13 @@ export function Proyectos() {
                                     Desarrollada en React con componentes de Ant Design, conexión a las APIs de AccuWeather y
                                     alojada en la nube con Vercel.
                                 </Card.Text>
-                                <small className="text-secondary">
-                                    React | Vite | Ant Design | Axios | Vercel
-                                </small>
+                                <Stack direction="horizontal" gap={1} className="justify-content-center">
+                                    <Badge pill bg="secondary">React</Badge>
+                                    <Badge pill bg="secondary">Vite</Badge>
+                                    <Badge pill bg="secondary">Ant Design</Badge>
+                                    <Badge pill bg="secondary">Axios</Badge>
+                                    <Badge pill bg="secondary">Vercel</Badge>
+                                </Stack>
                                 <Card.Img variant="bottom" src="/proyectos/climaapp-web.webp" />
                                 <Button
                                     className="react-bg-color button-card shadow-hover"

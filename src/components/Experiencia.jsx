@@ -29,8 +29,8 @@ export function Experiencia() {
                         <TarjetaInformativa
                             titulo="Hyundai Buses y Camiones"
                             parrafo="Desarrollé el back office y presté apoyo en el desarrollo de la app web realizando tareas atrasadas que consistian en problemas de responsividad, pop ups, validaciones, conexión a APIs Rest y también aprendí a utilizar nuevas librerias y frameworks."
-                            textoSmall="ReactJS | HTML | CSS | SweetAlert2 | Ant Design | Google Maps | Azure | Git"
-                            image='/proyectos/hyundai-web-navegador.webp'
+                            textoSmall="Tecnologías: ReactJS, HTML, CSS, SweetAlert2, Ant Design, Google Maps, Azure y Git."
+                            urlImagen='/proyectos/hyundai-web-navegador.webp'
                         />
                     </Col>
                     <Col
@@ -42,8 +42,8 @@ export function Experiencia() {
                         <TarjetaInformativa
                             titulo="Agencia de Aduanas Aníbal Moya"
                             parrafo="Proyecto web de uso privado, ya se encontraba avanzado en desarrollo y mi misión era corregir muchos errores de actualización y visualización de información. Luego implementamos fullcalendar para gestionar las fechas de llegada de los barcos a la aduana. Como objetivo principal debíamos disminuir los tiempos de algunos procesos que se realizaban en papel y ofrecer información actualizada para todo el personal."
-                            textoSmall="ReactJS | HTML | CSS | Material UI | SweetAlert2 | Git | Firebase"
-                            image='/proyectos/moya-web-navegador.webp'
+                            textoSmall="Tecnologías: ReactJS, HTML, CSS, Material UI, SweetAlert2, Git y Firebase."
+                            urlImagen='/proyectos/moya-web-navegador.webp'
                         />
                     </Col>
                     <Col
@@ -55,8 +55,8 @@ export function Experiencia() {
                         <TarjetaInformativa
                             titulo="Wetforest Ventures"
                             parrafo="Se construyó una landing page con mucha información con un look moderno, con movimiento y colores adecuados. Además ofrece la opción de iniciar sesión como empresa para interactuar a través de un cuestionario para obtener asesoría de strategic advisors. Participé en la gestión manteniendo reuniones online con los stakeholders y comunicación formal vía correo."
-                            textoSmall="HTML | CSS | JavaScript | Git | Google Cloud"
-                            image='/proyectos/wetforest-web-navegador.webp'
+                            textoSmall="Tecnologías: HTML, CSS, JavaScript, Git y Google Cloud."
+                            urlImagen='/proyectos/wetforest-web-navegador.webp'
                         />
 
                     </Col>
