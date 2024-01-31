@@ -5,7 +5,7 @@ import '../styles/tarjetaInformativa.css'
 
 export function TarjetaInformativa({ titulo, parrafo, textoSmall, urlImagen }) {
     return (
-        <div className='contenedor flotar'>
+        <div className='contenedor'>
             <h6 className='text-dark bold'>
                 {titulo}
             </h6>

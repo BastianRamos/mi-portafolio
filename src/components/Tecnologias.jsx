@@ -21,7 +21,7 @@ export function Tecnologias() {
                         <TarjetaSkill
                             imagenSrc='logos_tecnologias/javascript-logo.png'
                             texto='JavaScript ES6'
-                            porcentajeProgreso='50'
+                            porcentajeProgreso='60'
                         />
                     </Col>
 
@@ -29,7 +29,7 @@ export function Tecnologias() {
                         <TarjetaSkill
                             imagenSrc='logos_tecnologias/react-logo.png'
                             texto='ReactJS'
-                            porcentajeProgreso='50'
+                            porcentajeProgreso='60'
                         />
                     </Col>
 
@@ -37,7 +37,7 @@ export function Tecnologias() {
                         <TarjetaSkill
                             imagenSrc='logos_tecnologias/html5-logo.png'
                             texto='HTML5'
-                            porcentajeProgreso='50'
+                            porcentajeProgreso='60'
                         />
                     </Col>
 

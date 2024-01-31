@@ -16,7 +16,7 @@ export function Experiencia() {
                         <h2 className='d-flex justify-content-center align-items-end title-container'>
                             💼 Experiencia Laboral
                         </h2>
-                        <div className="flotar mt-5 pt-3 mb-3">
+                        <div className="mt-5 pt-3 mb-3">
                             <h6>Desarrollador Front End - Hackmonkeys S.A</h6>
                             <h6 style={{ fontSize: '.8rem' }}>Marzo 2021 a Diciembre 2022</h6>
                         </div>
