@@ -251,6 +251,10 @@ main {
     -webkit-animation: aparecer ease-out 1s;
 }
 
+.cursor-pointer{
+    cursor: pointer;
+}
+
 
 
 /* ____________________IDs____________________ */

@@ -22,27 +22,27 @@ function MenuMobile() {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto" >
-                        <Link activeClass='active' to='presentacion' spy smooth duration={1000} delay={0} offset={-150}>
+                        <Link activeClass='active' to='presentacion' spy smooth duration={0} delay={0} offset={-150}>
                             <Nav.Link href='#presentacion'>
                                 Presentación
                             </Nav.Link>
                         </Link>
-                        <Link activeClass='active' to='experiencia' spy smooth duration={1000} delay={0} offset={-150}>
+                        <Link activeClass='active' to='experiencia' spy smooth duration={0} delay={0} offset={-150}>
                             <Nav.Link href='#experiencia'>
                                 Experiencia
                             </Nav.Link>
                         </Link>
-                        <Link activeClass='active' to='tecnologias' spy smooth duration={1000} delay={0} offset={-150}>
+                        <Link activeClass='active' to='tecnologias' spy smooth duration={0} delay={0} offset={-150}>
                             <Nav.Link href='#tecnologias'>
                                 Tecnologías
                             </Nav.Link>
                         </Link>
-                        <Link activeClass='active' to='proyectos' spy smooth duration={1000} delay={0} offset={-150}>
+                        <Link activeClass='active' to='proyectos' spy smooth duration={0} delay={0} offset={-150}>
                             <Nav.Link href='#proyectos'>
                                 Proyectos
                             </Nav.Link>
                         </Link>
-                        <Link activeClass='active' to='contacto' spy smooth duration={1000} delay={0} offset={-150}>
+                        <Link activeClass='active' to='contacto' spy smooth duration={0} delay={0} offset={-150}>
                             <Nav.Link href='#contacto'>
                                 Contacto
                             </Nav.Link>

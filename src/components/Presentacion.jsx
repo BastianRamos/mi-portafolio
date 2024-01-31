@@ -33,9 +33,7 @@ export function Presentacion() {
                         </p>
                         <p className="semi-white lh-sm align-paragraph text-shadow-black">
                             Soy ingeniero en informática 👨‍🎓 titulado de Duoc UC en Santiago de Chile 🇨🇱. Me desempeño como
-                            desarrollador front end, con mucho interés por continuar aprendiendo sobre las
-                            tecnologías ligadas a javascript, responsividad, seguridad, buenas prácticas,
-                            metodología ágil, infraestructura y más.
+                            desarrollador front end con mucho interés  por crear experiencias de usuario atractivas y funcionales.
                         </p>
                     </Col>
                     <Col xs={12} className='text-center'>
@@ -47,7 +45,7 @@ export function Presentacion() {
                             alt='Logo react'
                         />
                         <div className='pt-5 pt-sm-0 d-contents d-sm-none'>
-                            <a id='linkCv' className="shadow-hover" href='CV.pdf' target="_blank">
+                            <a id='linkCv' className="shadow-hover" href='CV.pdf' target="_blank" rel="noopener noreferrer">
                                 Descarga mí CV
                             </a>
                         </div>

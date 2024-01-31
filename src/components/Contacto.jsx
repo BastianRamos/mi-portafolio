@@ -29,6 +29,7 @@ export function Contacto() {
                             className="hover-grow"
                             href={URL_LINKEDIN}
                             target="_blank"
+                            rel="noopener noreferrer"
                         >
                             <img
                                 src={ICON_LINKEDIN}
@@ -39,7 +40,7 @@ export function Contacto() {
                         </a>
                     </Col>
                     <Col xs={12} sm={4} className="d-flex justify-content-center align-items-center flotar altura-col-icon">
-                        <a className="hover-grow" href={URL_GMAIL} >
+                        <a className="hover-grow" href={URL_GMAIL} rel="noopener noreferrer">
                             <img
                                 src={ICON_GMAIL}
                                 height={60}
@@ -53,6 +54,7 @@ export function Contacto() {
                             className="hover-grow"
                             href={URL_GITHUB}
                             target="_blank"
+                            rel="noopener noreferrer"
                         >
                             <img
                                 src={ICON_GITHUB}

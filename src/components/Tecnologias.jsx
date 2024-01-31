@@ -88,6 +88,14 @@ export function Tecnologias() {
                             porcentajeProgreso='40'
                         />
                     </Col>
+
+                    <Col xs={4} lg={3} xl={2} className='d-flex justify-content-center'>
+                        <TarjetaSkill
+                            imagenSrc='logos_tecnologias/jest-logo.webp'
+                            texto='Jest'
+                            porcentajeProgreso='30'
+                        />
+                    </Col>
                 </Row>
             </Container>
         </section >

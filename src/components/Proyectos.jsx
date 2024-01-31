@@ -5,7 +5,6 @@ import '../styles/proyectos.css'
 const URL_CLIMAAPP = 'https://climaapp-bastianrs.vercel.app/'
 
 
-
 export function Proyectos() {
     return (
         <section
@@ -45,6 +44,7 @@ export function Proyectos() {
                                     href={URL_CLIMAAPP}
                                     target="_blank"
                                     size="lg"
+                                    rel="noopener noreferrer"
                                 >
                                     Visitar
                                 </Button>
