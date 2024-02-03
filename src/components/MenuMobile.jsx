@@ -11,7 +11,7 @@ function MenuMobile() {
                 <Navbar.Brand>
                     <Link activeClass="active" to="presentacion" smooth duration={1000}>
                         <img
-                            src="/brs-logo.webp"
+                            src="/brs circle.png"
                             width="30"
                             height="30"
                             className="d-inline-block align-top"
