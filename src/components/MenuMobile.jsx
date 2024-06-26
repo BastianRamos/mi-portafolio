@@ -9,7 +9,7 @@ function MenuMobile() {
         <Navbar id='menu-mobile' className="bg-body-tertiary d-none d-sm-none aparecer" collapseOnSelect expand={false} variant="dark" sticky="top" style={NAVBAR_STYLE}>
             <Container>
                 <Navbar.Brand>
-                    <Link activeClass="active" to="presentacion" smooth duration={1000}>
+                    <Link activeClass="active" to="presentacion" smooth duration={0} delay={0}>
                         <img
                             src="/brs circle.png"
                             width="30"

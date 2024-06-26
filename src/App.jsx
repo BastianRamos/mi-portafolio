@@ -7,6 +7,9 @@ import { BotonVolverArriba } from "./components/BotonVolverArriba"
 import { Proyectos } from "./components/Proyectos"
 import MenuMobile from "./components/MenuMobile"
 
+const SRC_VIDEO_FONDO = '/video-pulsaciones-iconos.mp4'
+
+
 function App() {
 
   window.onscroll = () => {
@@ -25,9 +28,20 @@ function App() {
       <MenuMobile />
       <Sidebar />
       <main>
-        <video id="video-fondo" autoPlay loop >
-          <source src="video-pulsaciones-iconos.mp4" type="video/mp4" />
+        <video
+          id="video-fondo"
+          autoPlay={true}
+          loop={true}
+          muted={true}
+        >
+          <source
+            src={SRC_VIDEO_FONDO}
+            type="video/mp4"
+          />
         </video>
+
+        {/* <img src="/fondo_circuitos.webp" id="video-fondo" /> */}
+
         <Presentacion />
         <Experiencia />
         <Tecnologias />
