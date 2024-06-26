@@ -65,6 +65,30 @@ export function Experiencia() {
                         />
 
                     </Col>
+
+                    <Col xs={12}>
+                        <div className="mt-5 pt-3 mb-3">
+                            <h6>Servicios de Informática - SERVIZONE.CL</h6>
+                            <h6 style={{ fontSize: '.8rem' }}>Agosto 2023 a la Actualidad</h6>
+                        </div>
+                    </Col>
+
+                    <Col
+                        xs={12}
+                        sm={6}
+                        lg={4}
+                        className="mt-sm-4 mt-lg-0"
+                    >
+                        <TarjetaInformativa
+                            key="servizone"
+                            titulo="SERVIZONE hardware & software"
+                            parrafo="Realizo trabajos de reparación y mantención de computadoras, consolas, celulares y tablets de diferentes marcas. Ofrezco servicios a domicilio, en oficinas y también recibo equipos en mi hogar. Y como no, servicios de desarrollo web."
+                            textoSmall="Tecnologías: HTML, CSS, JavaScript, ReactJS, Material UI, Git y Vercel."
+                            urlImagen="/proyectos/servizone_displays.webp"
+                            urlWeb={"https://servizone.cl/"}
+                        />
+
+                    </Col>
                 </Row>
             </Container>
         </section >
