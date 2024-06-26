@@ -19,6 +19,14 @@ export function Tecnologias() {
 
                     <Col xs={4} lg={3} xl={2} className='d-flex justify-content-center'>
                         <TarjetaSkill
+                            imagenSrc='logos_tecnologias/html5-logo.png'
+                            texto='HTML5'
+                            porcentajeProgreso='80'
+                        />
+                    </Col>
+
+                    <Col xs={4} lg={3} xl={2} className='d-flex justify-content-center'>
+                        <TarjetaSkill
                             imagenSrc='logos_tecnologias/javascript-logo.png'
                             texto='JavaScript ES6'
                             porcentajeProgreso='60'
@@ -35,16 +43,16 @@ export function Tecnologias() {
 
                     <Col xs={4} lg={3} xl={2} className='d-flex justify-content-center'>
                         <TarjetaSkill
-                            imagenSrc='logos_tecnologias/html5-logo.png'
-                            texto='HTML5'
-                            porcentajeProgreso='60'
+                            imagenSrc='logos_tecnologias/css3-logo.png'
+                            texto='CSS3'
+                            porcentajeProgreso='50'
                         />
                     </Col>
 
                     <Col xs={4} lg={3} xl={2} className='d-flex justify-content-center'>
                         <TarjetaSkill
-                            imagenSrc='logos_tecnologias/css3-logo.png'
-                            texto='CSS3'
+                            imagenSrc='logos_tecnologias/mui-logo.png'
+                            texto='Material UI'
                             porcentajeProgreso='50'
                         />
                     </Col>
@@ -61,14 +69,6 @@ export function Tecnologias() {
                         <TarjetaSkill
                             imagenSrc='logos_tecnologias/bootstrap-logo.png'
                             texto='Bootstrap'
-                            porcentajeProgreso='40'
-                        />
-                    </Col>
-
-                    <Col xs={4} lg={3} xl={2} className='d-flex justify-content-center'>
-                        <TarjetaSkill
-                            imagenSrc='logos_tecnologias/mui-logo.png'
-                            texto='Material UI'
                             porcentajeProgreso='40'
                         />
                     </Col>

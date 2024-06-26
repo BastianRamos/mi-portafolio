@@ -32,7 +32,7 @@ export function Presentacion() {
                             Me gusta el desarrollo web, en especial trabajar con <b className="react-color">React.</b>
                         </p>
                         <p className="semi-white lh-sm align-paragraph text-shadow-black">
-                            Soy ingeniero en informática 👨‍🎓 titulado de Duoc UC en Santiago de Chile 🇨🇱. Me desempeño como
+                            Soy ingeniero en informática titulado de Duoc UC en Santiago de Chile👨‍🎓. Me desempeño como
                             desarrollador front end con mucho interés  por crear experiencias de usuario atractivas y funcionales.
                         </p>
                     </Col>

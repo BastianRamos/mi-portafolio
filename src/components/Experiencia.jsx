@@ -44,7 +44,7 @@ export function Experiencia() {
                         <TarjetaInformativa
                             key={"Aduana"}
                             titulo="Agencia de Aduanas Aníbal Moya"
-                            parrafo="El proyecto ya se encontraba avanzado en desarrollo, conseguí corregir muchos errores de actualización y visualización de información. Además implementé el plugin fullcalendar para gestionar las fechas de llegada de los barcos a la aduana. Esto permitió mostrar mucha información de valor en un espacio reducido y visible para todo el personal."
+                            parrafo="Conseguí corregir muchos errores de actualización y visualización de información. Además implementé el plugin fullcalendar para gestionar las fechas de llegada de los barcos a la aduana. Esto permitió mostrar mucha información de valor en un espacio reducido y visible para todo el personal."
                             textoSmall="Tecnologías: ReactJS, HTML, CSS, Material UI, SweetAlert2, Git y Firebase."
                             urlImagen="/proyectos/moya-web-navegador.webp"
                         />
@@ -58,7 +58,7 @@ export function Experiencia() {
                         <TarjetaInformativa
                             key={"wetforest"}
                             titulo="Wetforest Ventures"
-                            parrafo="Desarrollé una landing page de diseño moderno y sútiles animaciones. Como segunda etapa agregué la funcionalidad que permite crear una cuenta como empresa para responder un cuestionario y obtener asesoría de strategic advisors. Además participé en la gestión manteniendo reuniones online con los stakeholders y comunicación formal vía correo."
+                            parrafo="Desarrollé una landing page de diseño moderno y sútiles animaciones. Como segunda etapa agregué la funcionalidad que permite crear una cuenta como empresa para responder un cuestionario y obtener asesoría. Además participé en la gestión manteniendo reuniones online con los stakeholders y comunicación formal vía correo."
                             textoSmall="Tecnologías: HTML, CSS, JavaScript, Git y Google Cloud."
                             urlImagen="/proyectos/wetforest-web-navegador.webp"
                             urlWeb={"https://wetforest.com/"}

@@ -21,7 +21,7 @@ export function Contacto() {
                 <Row>
                     <Col xs={12}>
                         <h2 className='d-flex justify-content-center align-items-end altura-titulo'>
-                            👇 Contáctame
+                            👇 Más Información y Contacto
                         </h2>
                     </Col>
                     <Col xs={12} sm={4} className="d-flex justify-content-center align-items-center flotar altura-col-icon">
