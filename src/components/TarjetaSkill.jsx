@@ -7,7 +7,7 @@ import '../styles/tarjetaSkill.css'
 export function TarjetaSkill({ imagenSrc, texto, porcentajeProgreso }) {
     return (
         <Card className='contenedor-tarjeta rebote-vertical-hover'>
-            <Card.Img variant='top' src={imagenSrc} className='p-2' aria-label={`Logo ${texto}`} />
+            <Card.Img variant='top' src={imagenSrc} className='p-2' aria-label={`Logo ${texto}`} alt={`Logotipo ${texto}`} />
             <Card.Body className='pt-1' >
                 <Card.Text className='text-tarjeta'>
                     {texto}

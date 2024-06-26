@@ -37,7 +37,7 @@ export function Proyectos() {
                                     <Badge pill bg="secondary">Axios</Badge>
                                     <Badge pill bg="secondary">Vercel</Badge>
                                 </Stack>
-                                <Card.Img variant="bottom" src="/proyectos/climaapp-web.webp" />
+                                <Card.Img variant="bottom" src="/proyectos/climaapp-web.webp" alt="imagen aplicacion climaapp" />
                                 <Button
                                     className="react-bg-color button-card shadow-hover"
                                     variant="secondary"
